@@ -17,6 +17,6 @@ printf("%x", x);
 
 printf("\n");
 
-return (0)
+return (0);
 
 }
