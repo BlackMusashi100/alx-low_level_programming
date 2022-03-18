@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * print_most_numbers - print numbers
  *
  * Return: Always 0.
