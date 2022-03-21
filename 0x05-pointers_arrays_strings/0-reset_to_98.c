@@ -1,20 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
-/* 
- * main - check the code
+/*
+ *reset_to_98 - updates an integer value to 98
  *
- * Return: Always 0.
+ *@n: A pointer to an int that will be updated
+ *
+ * Return: void means its correct
  */
 
-int void reset_to_98(int *n)
-{
-int n;
-int *p;
+void reset_to_98(int *n)
 
-n = 98;
-p = &n;
-_putchar("Address of 'n': %p\n", &n);
-_putchar("value of 'p': %p\n", p);
-return (0);
+{
+*n = 98;
 }
